@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: #fff;
+  margin: 0px auto;
+  padding: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
+  color: #14263b;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.wrapper {
+  max-width: 1196px;
+  padding: 0 15px;
+  margin: 0 auto;
+  float: none;
+}
+*,
+*::before,
+*::before,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+b,
+address,
+strong {
+  margin: 0;
+  padding: 0;
+}
+a,
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  text-transform: initial;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: #14263b;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #FFFFFF;
+ }
+
+h2 {
+  font-size: 32px;
+  font-weight: 700; 
+  line-height: 41.6px;
+  letter-spacing: 0px;
+}
+
+
+
+h3{
+font-size: 28px;
+font-weight: 600;
+line-height: 36.4px;
+letter-spacing: 0px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+
+
+}
+
+h5{
+font-size: 18px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+
+
+p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+color: #666;
+}
+
+p.medium {
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+color: #666;
+ 
+}
+p.large {
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color:#666666;
+}
+
+b {
+
+
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+color:#14263B;
+
+}
+
+
+label {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 140%;
+  color: #666;
+}
+::-webkit-input-placeholder {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 140%;
+  color: #666;
+}
+::-moz-placeholder {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 140%;
+  color: #666;
+}
+::-ms-input-placeholder {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 140%;
+  color: #666;
+}
+::placeholder {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 140%;
+  color: #666;
+}
+a {
+  font-size: 14px;
+  font-style: normal;
+  color: rgba(11, 54, 148, 1);
+  font-weight: 600;
+  line-height: 140%;
+  transition: all 0.4s ease-in;
+}
+/*a:hover {
+  transition: all 0.4s ease-in;
+  color: #f36b39;
+}*/
+a.cta_button {
+  background: rgba(11, 54, 148, 1);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 20px 34px;
+  transition: all 0.3s ease-in;
+  display: inline-block;
+  text-decoration: none;
+}
+a.cta_button:hover {
+  background: #fff;
+  color: rgba(11, 54, 148, 1);
+  transition: all 0.3s ease-in;
+}
+button {
+  background: rgba(11, 54, 148, 1);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 20px 34px;
+  transition: all 0.3s ease-in;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 6px;
+}
+button:hover {
+  background:white;
+  color:black;
+  border:1px solid rgba(11, 54, 148, 1);
+  transition: all 0.3s ease-in;
+}
+/* Table Styling */
+/* Form Styling */
+/* ul-li Styling */
+/* Global classes */
+.all-text-white,
+.all-text-white h1,
+.all-text-white h2,
+.all-text-white h3,
+.all-text-white p,
+.all-text-white h4,
+.all-text-white h5,
+.all-text-white h6,
+.all-text-white li,
+.all-text-white .fa,
+.all-text-white a {
+  color: #fff;
+}
+.text-margin-zero h1,
+.text-margin-zero h2,
+.text-margin-zero h3,
+.text-margin-zero p,
+.text-margin-zero h4,
+.text-margin-zero h5,
+.text-margin-zero h6,
+.text-margin-zero .fa,
+.text-margin-zero a {
+  margin: 0;
+}
+.base-color-text h1,
+.base-color-text h2,
+.base-color-text h3,
+.base-color-text p,
+.base-color-text h4,
+.base-color-text h5,
+.base-color-text h6,
+.base-color-text .fa,
+.base-color-text a {
+  color: #14263b;
+}
+.overlay {
+  position: relative;
+  z-index: 1;
+}
+.overlay:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #14263b;
+  opacity: 0.8;
+  z-index: -1;
+}
+.flex {
+  display: flex;
+}
+.align-center {
+  text-align: center;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+/* Responsive Styling */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 110%;
+  }
+  h3 {
+    font-size: 34px;
+    line-height: 120%;
+  }
+  h4 {
+    font-size: 28px;
+    line-height: 120%;
+  }
+  h5 {
+    font-size: 26px;
+    line-height: 110%;
+  }
+  h6 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
